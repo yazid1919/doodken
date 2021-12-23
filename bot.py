@@ -31,7 +31,7 @@ bot = Client('Doodstream bot',
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**I am a Doodstream post convertor bot and i am able to upload all direct links to Doodstream,just send me link or full post...**")
+        "**This is a Doodstream URL convertor bot and able to upload all direct links to Doodstream,just send me link or full post...**")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
