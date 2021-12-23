@@ -179,8 +179,14 @@ async def remove_username(new_List):
 
 async def addFooter(str):
     footer = """
-━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
+    
+<b> Note : Your Video File is Available on Above LINK ones Upload Process is Complete, it Take Time Depend on Your File Size & My Server Upload Speed
+So,be Patient </b>  😴😴😴😴     
+━━━━━━━━━━━━━━━
+How to Watch Or [@WatchTutorial](https://t.me/joinchat/xxz1cj6N1jswYmNl). 
+⦿ Made With ♥️ By @TheTeleRoid
+━━━━━━━━━━━━━━━
+✪ »JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
 
 bot.run()
