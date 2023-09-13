@@ -12,12 +12,12 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
-DOODSTREAM_API_KEY = environ.get('DOODSTREAM_API_KEY')
+API_ID = environ.get('API_ID', "25048636")
+API_HASH = environ.get('API_HASH', "760d18dc8673bdbb56969fb073580abd")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6577196657:AAEOnfYM8uLBhjbSc_UrY59fMptWCcEWUwc")
+DOODSTREAM_API_KEY = environ.get('DOODSTREAM_API_KEY', "112786w7ihvj8fur1q3cd4")
 BITLY_KEY = environ.get('BITLY_KEY')
-CHANNEL = environ.get('CHANNEL')
+CHANNEL = environ.get('CHANNEL', "-1001923813676")
 HOWTO = environ.get('HOWTO')
 bot = Client('Doodstream bot',
              api_id=API_ID,
